@@ -1,0 +1,12 @@
+<h1>All Posts</h1>
+
+<% @posts.each do |post| %>
+	<p>
+		<strong><%= post.title %></strong><br>
+		- <%= post.body %>
+	</p>
+	<% if signed_in? %>
+		Author: <%= User.find_by(id: post.foreign_key).name %>
+	<% end %>	
+<% end %>
+<% puts "#{signed_in?}, #{@current_user}" %>

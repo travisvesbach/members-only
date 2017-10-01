@@ -1,24 +1,8 @@
-# README
+members-only project from The Odin Project
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+started on: September 30, 2017
+finished on: October 1, 2017
 
-Things you may want to cover:
+Notes:
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This project works with databases, cookies, sign in, and sign out procedures.  Though I did not spend much time with the frontend, the backend is functioning per the project requirements.  When a user is not signed in, the authors of the posts are not desplayed and new posts can not be made.  Upon signing in, a user can see who wrote which posts as well as make posts of their own. 
